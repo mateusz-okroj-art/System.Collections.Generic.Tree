@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6,net5,netcoreapp3.1,netstandard2.0</TargetFrameworks>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RootNamespace>$(MSBuildProjectName.Substring(0,26))</RootNamespace>
+    <Version>0.1.0</Version>
+    <Authors>Mateusz Okrój</Authors>
+    <RepositoryUrl>https://github.com/mateusz-okroj-art/System.Collections.Generic.Tree.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/mateusz-okroj-art/System.Collections.Generic.Tree</PackageProjectUrl>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>
