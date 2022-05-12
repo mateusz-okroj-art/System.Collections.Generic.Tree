@@ -65,8 +65,8 @@ jobs:
             
       - name: Restore projects
         timeout-minutes: 15
-        run: dotnet restore Sources -c Debug
+        run: dotnet restore Sources --verbosity detailed
           
       - name: Build projects
         timeout-minutes: 30
-        run: dotnet build Sources -c Debug --no-restore
+        run: dotnet build Sources -c Debug --no-restore --verbosity detailed
