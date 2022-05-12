@@ -21,7 +21,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
   
-    name: Build on ${{ matrix.runsOn }} with ${{ matrix.sdkVersion }}
+    name: Build on ${{ matrix.runsOn }}
   
     strategy:
     
